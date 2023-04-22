@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/root_app.dart';
 import 'theme/color.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -12,10 +13,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Online Course App',
       theme: ThemeData(
-        primaryColor: primary,
+        primaryColor: AppColor.primary,
       ),
-      home: RootApp(),
+      home: const RootApp(),
     );
   }
-
 }

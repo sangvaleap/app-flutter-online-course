@@ -3,7 +3,13 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:online_course/theme/color.dart';
 
 class SettingBox extends StatelessWidget {
-  SettingBox({ Key? key, required this.title, required this.icon, this.color = darker }) : super(key: key);
+  const SettingBox({
+    Key? key,
+    required this.title,
+    required this.icon,
+    this.color = AppColor.darker,
+  }) : super(key: key);
+
   final title;
   final String icon;
   final Color color;
@@ -17,7 +23,7 @@ class SettingBox extends StatelessWidget {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: shadowColor.withOpacity(0.1),
+            color: AppColor.shadowColor.withOpacity(0.1),
             spreadRadius: 1,
             blurRadius: 1,
             offset: Offset(0, 1), // changes position of shadow
@@ -26,9 +32,23 @@ class SettingBox extends StatelessWidget {
       ),
       child: Column(
         children: [
-          SvgPicture.asset(icon, color: color, width: 22, height: 22,),
-          SizedBox(height: 7,),
-          Text(title, style: TextStyle(color: color, fontSize: 14, fontWeight: FontWeight.w500),)
+          SvgPicture.asset(
+            icon,
+            color: color,
+            width: 22,
+            height: 22,
+          ),
+          const SizedBox(
+            height: 7,
+          ),
+          Text(
+            title,
+            style: TextStyle(
+              color: color,
+              fontSize: 14,
+              fontWeight: FontWeight.w500,
+            ),
+          )
         ],
       ),
     );
