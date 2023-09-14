@@ -7,8 +7,6 @@
 - [My Linkedin](https://www.linkedin.com/in/sangvaleap-vanny-353b25aa/)
 - [My Twitter](https://twitter.com/sangvaleap)
 
-- My Email: sangvaleap.vanny@gmail.com
-
 <img width="600" alt="Screen Shot 2022-02-16 at 8 28 31 PM" src="https://user-images.githubusercontent.com/86506519/154279567-9b5677dd-984a-4096-8112-e02fbf5bab50.png">
 <img width="600" alt="Screen Shot 2022-02-16 at 8 28 53 PM" src="https://user-images.githubusercontent.com/86506519/154279582-a65b4792-3ed3-4b3c-8fc1-fb4b694224e7.png">
 <img width="600" alt="Screen Shot 2022-02-16 at 8 29 57 PM" src="https://user-images.githubusercontent.com/86506519/154279596-f5117821-fbe4-47d3-aef5-0ec75674ac04.png">
